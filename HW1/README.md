@@ -26,4 +26,4 @@ python main.py
 ```
 
 ## Performance Snapshot
-![alt text](image.png)](https://github.com/wonlin91/Visual-Recognition-using-Deep-Learning/blob/main/HW1/leaderboard.png)
+![image.png](https://github.com/wonlin91/Visual-Recognition-using-Deep-Learning/blob/main/HW1/leaderboard.png)
