@@ -19,10 +19,10 @@ pip install -r requirements.txt
 
 ## Usage
 
-Open main.py and modify the configuration above, changing the mode to “train” or “test” as needed.
+Open main.py and modify the configuration above, changing the mode to “train/test” and other arguments as needed.
 
 ```bash
-python main.py
+python main.py --mode train/test --epoch arg1 --batch_size arg2
 ```
 
 ## Performance Snapshot
