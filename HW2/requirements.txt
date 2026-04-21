@@ -1,0 +1,26 @@
+# ── Core deep learning ─────────────────────────
+torch>=2.1.0
+torchvision>=0.16.0
+ 
+# ── HuggingFace (Deformable DETR) ─────────────
+transformers>=4.40.0
+timm>=0.9.0               # backbone feature extractor used by HF DETR
+ 
+# ── Data / augmentation ────────────────────────
+albumentations>=1.4.0
+Pillow>=10.0.0
+numpy>=1.24.0
+opencv-python-headless>=4.9.0   # used internally by albumentations
+ 
+# ── COCO tooling ──────────────────────────────
+pycocotools>=2.0.7
+ 
+# ── Metrics & evaluation ──────────────────────
+scikit-learn>=1.4.0       # confusion_matrix, classification_report
+ 
+# ── Visualisation ─────────────────────────────
+matplotlib>=3.8.0
+ 
+# ── Utilities ─────────────────────────────────
+tqdm>=4.66.0
+scipy>=1.12.0
